@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DanhSachThanhVien">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ThanhVien" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaThe" type="xs:string"/>
+                            <xs:element name="HoTen" type="xs:string"/>
+                            <xs:element name="Sdt" type="xs:string"/>
+                            <xs:element name="DiemTichLuy" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

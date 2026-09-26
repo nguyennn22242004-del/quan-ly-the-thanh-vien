@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DanhSachThanhVien>
+    <ThanhVien>
+        <MaThe>TV01</MaThe>
+        <HoTen>Nguyen Van A</HoTen>
+        <Sdt>0901234567</Sdt>
+        <DiemTichLuy>150</DiemTichLuy>
+    </ThanhVien>
+    <ThanhVien>
+        <MaThe>TV02</MaThe>
+        <HoTen>Tran Thi B</HoTen>
+        <Sdt>0987654321</Sdt>
+        <DiemTichLuy>50</DiemTichLuy>
+    </ThanhVien>
+</DanhSachThanhVien>
